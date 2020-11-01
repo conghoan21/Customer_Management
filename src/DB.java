@@ -10,11 +10,11 @@ public class DB {
     }
 
     private static void initData(){
-        add(new Customer("Do","Thanh","0862628647","Thai Nguyen"));
-        add(new Customer("Do","Viet","0869613108","Thai Nguyen"));
-        add(new Customer("Nguyen","Dung","0123456789","Nghe An"));
-        add(new Customer("Dao","Toan","0987654321","Thai Nguyen"));
-        add(new Customer("Nguyen","Thanh","0456789123","Ha Noi"));
+        add(new Customer("Luong","Tuan","012345678","Ha Noi"));
+        add(new Customer("Nguyen","Tuan","365874423","Ha Noi"));
+        add(new Customer("Do","Nam","5465231846","Nam Dinh"));
+        add(new Customer("Truong","Chung","012634875","Nam Dinh"));
+        add(new Customer("Nguyen","Thanh","132156423","Ha Noi"));
     }
 
     public static void add(Customer customer) {
