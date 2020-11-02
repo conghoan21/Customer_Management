@@ -23,7 +23,7 @@
             <th>Phone number</th>
             <th>Address</th>
         </tr>
-        <c:forEach items="${showAll}" var="customer">
+        <c:forEach items="${show}" var="customer">
             <tr>
                 <td>${customer.ID}</td>
                 <td>${customer.firstName}</td>

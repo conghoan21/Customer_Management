@@ -15,8 +15,8 @@ public class DisplayCustomer extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Customer> list = DB.getList();
-        request.setAttribute("showAll",list);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("showAll.jsp");
+        request.setAttribute("show",list);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("show.jsp");
         dispatcher.forward(request,response);
     }
 }
